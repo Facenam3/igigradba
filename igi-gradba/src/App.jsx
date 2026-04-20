@@ -1,12 +1,12 @@
-import './App.css'
+import { RouterProvider } from "react-router-dom";
+
+import { router } from "./router/router.jsx";
 
 function App() {
 
   return (
     <>
-      <section className='flex justify-center items-center bg-amber-200'>
-        <h1 className="text-red-500 text-3xl">Welcome to my project</h1>
-      </section>
+      <RouterProvider router={router} />
     </>
   )
 }
