@@ -13,7 +13,7 @@ export const categories = [
     },
     {
         id: 4,
-        name: "портфолио",
+        name: "проекти",
     },
-    
+
 ];
