@@ -15,8 +15,8 @@ export default function MobileNavigation() {
                             to={`/${cat.path}`}
                             className={({isActive}) => 
                                 isActive 
-                                    ? "underline underline-offset-4 text-blue-500"
-                                    : "hover:text-blue-500"
+                                    ? "underline underline-offset-4 text-orange-500"
+                                    : "hover:text-orange-500"
                             }
                         ></NavLink>
                     </li>
