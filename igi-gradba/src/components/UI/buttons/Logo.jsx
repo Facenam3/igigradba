@@ -1,10 +1,12 @@
+import logo from "../../../assets/logo/igigradba1.png";
+
 export default function Logo() {
     return (
         <a 
             href="/"
-            className="uppercase text-3xl text-cyan-400 font-extrabold hover:text-blue-500"
+            className="w-[80px] h-[80px]"
         >
-            иги градба
+           <img src={logo} alt="company logo" className="w-full h-full object-cover"/>
         </a>
     );
 }
