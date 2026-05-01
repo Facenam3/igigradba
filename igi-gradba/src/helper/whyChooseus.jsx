@@ -3,7 +3,7 @@ export const whyChooseUs = [
     id: 1,
     title: "Искуство",
     description: "Долгогодишно искуство во изведба на различни градежни проекти.",
-    icon: <i className="fa-solid fa-user-hard-hat text-xl text-white"></i>,
+    icon: <i class="fa-solid fa-users-gear text-xl text-white"></i>,
   },
   {
     id: 2,

@@ -3,7 +3,7 @@ export const workProcess = [
     id: 1,
     title: "Контакт и консултација",
     description: "Ги разгледуваме вашите потреби, идеја и очекувања за проектот.",
-    icon: <i className="fa-regular fa-id-badge text-xl text-white"></i>,
+    icon: <i className="fa-solid fa-phone text-xl text-white"></i>,
   },
   {
     id: 2,
@@ -15,7 +15,7 @@ export const workProcess = [
     id: 3,
     title: "Изведба на проектот",
     description: "Работиме прецизно, организирано и со внимание на секој детал.",
-    icon: <i className="fa-solid fa-building text-xl text-white"></i> ,
+    icon: <i className="fa-solid fa-hammer text-xl text-white"></i>,
   },
   {
     id: 4,
