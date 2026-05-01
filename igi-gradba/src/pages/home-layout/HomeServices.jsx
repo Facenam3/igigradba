@@ -1,7 +1,7 @@
-import Card from "../components/UI/Card";
-import MainHeader from "../components/UI/MainHeader";
+import Card from "../../components/UI/Card.jsx";
+import MainHeader from "../../components/UI/MainHeader";
 
-import { homeServices } from "../helper/services";
+import { homeServices } from "../../helper/services";
 
 export default function HomeServices() {
     return (
