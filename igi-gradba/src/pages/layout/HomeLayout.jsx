@@ -8,8 +8,8 @@ export default function HomeLayout() {
         <>
          <Home />
          <HomeServices />
-         <ChooseUs />
          <WorkProcess />
+         <ChooseUs />
         </>
     );
 }
