@@ -1,16 +1,16 @@
 import Card from "../components/UI/Card";
+import MainHeader from "../components/UI/MainHeader";
+
 import { homeServices } from "../helper/services";
 
 export default function HomeServices() {
     return (
         <section
-            className="p-5 my-10 "
+            className="lg:py-20 py-10 px-3"
         >
-            <h1 
-                className="text-3xl font-semibold text-center capitalize"
-            >
-                наши услуги
-            </h1>
+            <MainHeader
+                title="наши услуги"
+            />
 
             <div
                 className="p-5 flex lg:flex-row flex-col gap-5 mt-10"
