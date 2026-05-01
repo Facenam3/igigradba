@@ -23,11 +23,11 @@ export default function Home() {
 
                     <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row">
                         <button className="w-full rounded-2xl border-2 border-amber-500 bg-amber-500 px-6 py-3 text-base font-semibold capitalize text-white transition hover:bg-orange-500 sm:w-auto md:text-xl cursor-pointer">
-                            започни го твојот проект
+                            побарај понуда
                         </button>
 
                         <button className="w-full rounded-2xl border-2 border-white bg-transparent px-6 py-3 text-base font-semibold capitalize text-white transition hover:bg-white hover:text-black sm:w-auto md:text-xl cursor-pointer">
-                            погледни ја нашата работа
+                            погледни проекти
                         </button>
                     </div>
                 </div>
