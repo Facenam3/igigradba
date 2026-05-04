@@ -2,7 +2,7 @@ export default function WorkProcessCard({ icon, title, description, white }) {
 
     if(white){
         return (
-            <div className="lg:rounded-3xl rounded-xl border bg-white p-6 text-center text-gray-900 shadow-lg my-5">
+            <div className="lg:rounded-3xl rounded-xl border bg-white p-6 text-center text-gray-900 shadow-lg my-5 transition duration-300 hover:-translate-y-1 hover:shadow-xl">
                     <div className="mx-auto mb-5 flex h-14 w-14 items-center justify-center rounded-full bg-amber-500 text-black">
                         {icon}
                     </div>
@@ -18,7 +18,7 @@ export default function WorkProcessCard({ icon, title, description, white }) {
         );
         }
     return (
-        <div className="lg:rounded-3xl rounded-xl border bg-gradient-to-r from-amber-950 to-amber-600 p-6 text-center text-gray-900 shadow-lg my-5">
+        <div className="lg:rounded-3xl rounded-xl border bg-gradient-to-r from-amber-950 to-amber-600 p-6 text-center text-gray-900 shadow-lg my-5 transition duration-300 hover:-translate-y-1 hover:shadow-xl">
             <div className="mx-auto mb-5 flex h-14 w-14 items-center justify-center rounded-full bg-amber-500 text-black">
                 {icon}
             </div>
