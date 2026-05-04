@@ -2,7 +2,7 @@ export default function Card({title, img, description, ...props}) {
     return (
         <div 
             {...props}
-            className="border-2 border-amber-600 rounded-xl shadow-lg lg:w-1/3 w-full hover:scale-105 transform transition-all"
+            className="border-2 border-amber-600 rounded-xl shadow-lg lg:w-1/3 w-fulltransition duration-300 hover:-translate-y-1 hover:shadow-xl"
         >
             <div className="card-head">
                 <div className="img ">
