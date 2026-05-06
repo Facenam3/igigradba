@@ -1,4 +1,5 @@
 import Card from "../../components/UI/Card.jsx";
+import CardSection from "../../components/UI/CardSection.jsx";
 import MainHeader from "../../components/UI/MainHeader";
 
 import { homeServices } from "../../helper/services";
@@ -11,10 +12,7 @@ export default function HomeServices() {
             <MainHeader
                 title="наши услуги"
             />
-
-            <div
-                className="p-5 flex lg:flex-row flex-col gap-5 mt-10"
-            >
+            <CardSection>
                 {homeServices?.map((service) => (
                     <Card
                         key={service.id}
@@ -23,7 +21,7 @@ export default function HomeServices() {
                         description={service.description}
                     />
                 ))}
-            </div>
+            </CardSection>
         </section>
     );
 }

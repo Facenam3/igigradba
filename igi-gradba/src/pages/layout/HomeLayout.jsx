@@ -2,6 +2,7 @@ import ChooseUs from "../home-layout/ChooseUs.jsx";
 import Home from "../home-layout/Home.jsx";
 import HomeServices from "../home-layout/HomeServices.jsx";
 import WorkProcess from "../home-layout/WorkProcess.jsx";
+import FeaturedProjects from "../home-layout/FeaturedProjects.jsx";
 
 export default function HomeLayout() {
     return (
@@ -10,6 +11,7 @@ export default function HomeLayout() {
          <HomeServices />
          <WorkProcess />
          <ChooseUs />
+         <FeaturedProjects />
         </>
     );
 }
