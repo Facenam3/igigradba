@@ -1,6 +1,7 @@
 import MainHeader from "../../components/UI/MainHeader";
 import SemiHeader from "../../components/UI/SemiHeader";
 import WorkProcessCard from "../../components/UI/WorkProcessCard";
+import CardSection from "../../components/UI/CardSection.jsx";
 
 import { workProcess } from "../../helper/workprocess.jsx";
 
@@ -18,7 +19,7 @@ export default function WorkProcess() {
                 Нашата цел е клиентот да знае што се случува во секоја фаза од работата."
                 text
             />
-            <div className="flex md:flex-row flex-col gap-5 px-5">
+            <CardSection>
                 {workProcess?.map((process) => (
                     <WorkProcessCard
                         white
@@ -28,7 +29,7 @@ export default function WorkProcess() {
                         icon={process.icon}
                     />
                 ))}
-            </div>
+            </CardSection>
         </section>
     );
 }

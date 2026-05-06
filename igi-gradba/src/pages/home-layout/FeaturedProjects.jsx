@@ -1,4 +1,4 @@
-import CardSection from "../../components/UI/CardSection";
+import CardSection from "../../components/UI/CardSection.jsx";
 import MainHeader from "../../components/UI/MainHeader.jsx";
 import SemiHeader from "../../components/UI/SemiHeader.jsx";
 import Card from "../../components/UI/Card.jsx";
