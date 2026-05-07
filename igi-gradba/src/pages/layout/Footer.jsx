@@ -7,9 +7,9 @@ export default function Footer() {
         <footer className="bg-gradient-to-r from-amber-950 to-amber-600 text-white rounded-t-3xl py-12 lg:py-16 px-4 border-t border-zinc-800">
             <div className="container mx-auto">
 
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 text-center lg:text-left">
+                <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 text-center lg:text-left">
 
-                    <div className="flex flex-col gap-5">
+                    <div className="flex flex-col lg:items-baseline lg:justify-baseline items-center justify-center gap-5">
                         <Logo />
 
                         <p className="text-sm leading-7 text-gray-50 max-w-sm">
