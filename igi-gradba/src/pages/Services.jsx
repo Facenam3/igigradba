@@ -8,6 +8,9 @@ import { services } from "../helper/services.js";
 export default function Services() {
     return (
         <section className="lg:py-36 py-16 px-3">
+            <SemiHeader
+                description="УСЛУГИ"
+            />
             <MainHeader 
                 title="професионални градежни решенија"
             />
