@@ -33,7 +33,7 @@ export default function Footer() {
                             </Link>
 
                             <Link
-                                to="/about"
+                                to="/about-us"
                                 className="hover:text-amber-300 transition-colors duration-300"
                             >
                                 За Нас
