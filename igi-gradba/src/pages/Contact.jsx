@@ -18,7 +18,7 @@ export default function Contact() {
                 </p>
 
                 <GridContainer>
-                    <div className="bg-gradient-to-br from-zinc-950 to-zinc-800 rounded-3xl px-6 py-8 lg:px-10 lg:py-12 shadow-xl text-white">
+                    <div className="bg-gradient-to-br from-zinc-950 to-zinc-600 rounded-3xl px-6 py-8 lg:px-10 lg:py-12 shadow-xl text-white">
                         <h3 className="text-2xl font-bold mb-4">
                             Контакт информации
                         </h3>

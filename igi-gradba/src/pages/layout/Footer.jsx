@@ -60,6 +60,10 @@ export default function Footer() {
                                 Контакт
                             </Link>
 
+                            <Link to="/privacy-policy">
+                                Политика на приватност
+                            </Link>
+
                         </div>
                     </div>
 
