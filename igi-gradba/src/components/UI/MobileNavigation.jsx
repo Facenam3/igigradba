@@ -1,14 +1,14 @@
 import { NavLink } from "react-router-dom";
 import { categories } from "../../helper/categories.js";
 
-import ContactUs from "../UI/buttons/Contact.jsx";
+import ContactUs from "./buttons/ContactUs.jsx";
 
 export default function MobileNavigation({ isOpen, onClose }) {
     if (!isOpen) return null;
 
     return (
         <div className="lg:hidden">
-            <ul className="flex flex-col justify-center items-center gap-4 p-5">
+            <ul className="flex flex-col justify-center items-center gap-4 p-5 capitalize">
                 {categories.map((cat) => (
                     <li key={cat.id}>
                         <NavLink
@@ -25,7 +25,9 @@ export default function MobileNavigation({ isOpen, onClose }) {
                     </li>
                 ))}
 
-                <ContactUs />
+                <ContactUs
+                    onClick={onClose}
+                />
             </ul>
         </div>
     );
