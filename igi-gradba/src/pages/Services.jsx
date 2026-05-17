@@ -7,7 +7,7 @@ import { services } from "../helper/services.js";
 
 export default function Services() {
     return (
-        <section className="lg:py-36 py-16 px-3">
+        <section className="py-36 px-3">
             <SemiHeader
                 description="УСЛУГИ"
             />

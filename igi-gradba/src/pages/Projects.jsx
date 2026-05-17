@@ -5,7 +5,7 @@ import SemiHeader from "../components/UI/SemiHeader.jsx";
 import CardSection from "../components/UI/CardSection.jsx";
 
 import { projects, projectCategories } from "../helper/projects.jsx";
-import { filterProjectsByCategory, getFeaturedProjects } from "../helper/projectFilters.js";
+import { filterProjectsByCategory } from "../helper/projectFilters.js";
 
 export default function Projects() {
     const [activeCategory, setActiveCategory] = useState("all");
@@ -13,7 +13,7 @@ export default function Projects() {
     const filteredProjects = filterProjectsByCategory(projects, activeCategory);
 
     return (
-        <section className="lg:py-36 py-16 px-3">
+        <section className="py-36 px-3">
             <SemiHeader
                 description="ПРОЕКТИ"
             />
