@@ -14,7 +14,7 @@ export default function AboutUs() {
                 <MainHeader title="Градиме со квалитет, искуство и доверба" />
 
                 <GridContainer>
-                    <div className="bg-gradient-to-br from-zinc-950 to-zinc-800 rounded-3xl px-6 py-8 lg:px-10 lg:py-12 shadow-xl">
+                    <div className="bg-gradient-to-br from-zinc-950 to-zinc-600 rounded-3xl px-6 py-8 lg:px-10 lg:py-12 shadow-xl">
                         <div className="space-y-5 text-gray-200 text-base lg:text-lg leading-8">
                             <p>
                                 Со години искуство во градежништвото и јасна визија за
