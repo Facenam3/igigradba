@@ -4,7 +4,7 @@ import SemiHeader from "../components/UI/SemiHeader";
 
 export default function Contact() {
     return (
-        <section className="py-16 lg:py-36 px-3">
+        <section className="py-36 px-3">
             <div className="container mx-auto">
                 <SemiHeader description="КОНТАКТ" />
 
