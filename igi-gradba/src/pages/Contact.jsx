@@ -53,9 +53,18 @@ export default function Contact() {
                                 <span>igigradba@gmail.com</span>
                             </a>
 
-                            <p className="flex items-center gap-3 rounded-xl bg-white/10 px-5 py-4">
-                                <i className="fa-solid fa-location-dot text-amber-400"></i>
-                                <span>Скопје, Македонија</span>
+                           <p className="flex items-start gap-3 rounded-xl bg-white/10 px-5 py-4 transition hover:bg-white/20">
+                                <i className="fa-solid fa-map-location-dot text-amber-400 mt-1"></i>
+
+                                <div>
+                                    <p className="font-semibold">
+                                        Област на работа
+                                    </p>
+
+                                    <p className="text-sm text-gray-300">
+                                        Работиме на проекти низ цела Македонија
+                                    </p>
+                                </div>
                             </p>
 
                             <p className="flex items-center gap-3 rounded-xl bg-white/10 px-5 py-4">
