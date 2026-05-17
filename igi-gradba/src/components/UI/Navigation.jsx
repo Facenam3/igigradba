@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
 import { categories } from "../../helper/categories.js";
-import ContactUs from "./buttons/Contact.jsx";
+import ContactUs from "./buttons/ContactUs.jsx";
 
 export default function Navigation() {
     return (

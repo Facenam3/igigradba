@@ -3,6 +3,8 @@ import SemiHeader from "../components/UI/SemiHeader.jsx";
 
 import projectImg from "../assets/projects/project-1/IMG_6581.jpeg";
 
+import GridContainer from "../components/UI/GridContainer.jsx";
+
 export default function AboutUs() {
     return (
         <section className="py-36 px-3">
@@ -11,7 +13,7 @@ export default function AboutUs() {
 
                 <MainHeader title="Градиме со квалитет, искуство и доверба" />
 
-                <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mt-12">
+                <GridContainer>
                     <div className="bg-gradient-to-br from-zinc-950 to-zinc-800 rounded-3xl px-6 py-8 lg:px-10 lg:py-12 shadow-xl">
                         <div className="space-y-5 text-gray-200 text-base lg:text-lg leading-8">
                             <p>
@@ -78,7 +80,7 @@ export default function AboutUs() {
                             </p>
                         </div>
                     </div>
-                </div>
+                </GridContainer>
             </div>
         </section>
     );
