@@ -5,7 +5,7 @@ import projectImg from "../assets/projects/project-1/IMG_6581.jpeg";
 
 export default function AboutUs() {
     return (
-        <section className="py-16 lg:py-36 px-3">
+        <section className="py-36 px-3">
             <div className="container mx-auto">
                 <SemiHeader description="ЗА НАС" />
 
