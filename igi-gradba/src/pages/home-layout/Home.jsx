@@ -1,3 +1,5 @@
+import { NavLink } from "react-router-dom";
+
 export default function Home() {
     return (
         <section className="relative min-h-screen w-full overflow-hidden">
@@ -22,13 +24,17 @@ export default function Home() {
                     </p>
 
                     <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row">
-                        <button className="w-full rounded-2xl border-2 border-amber-500 bg-amber-500 px-6 py-3 text-base font-semibold capitalize text-white transition hover:bg-orange-500 sm:w-auto md:text-xl cursor-pointer">
+                        <NavLink 
+                            to="/contact"
+                            className="w-full rounded-2xl border-2 border-amber-500 bg-amber-500 px-6 py-3 text-base font-semibold capitalize text-white transition hover:bg-orange-500 sm:w-auto md:text-xl cursor-pointer">
                             побарај понуда
-                        </button>
+                        </NavLink>
 
-                        <button className="w-full rounded-2xl border-2 border-white bg-transparent px-6 py-3 text-base font-semibold capitalize text-white transition hover:bg-white hover:text-black sm:w-auto md:text-xl cursor-pointer">
+                        <NavLink 
+                            to="/projects"
+                            className="w-full rounded-2xl border-2 border-white bg-transparent px-6 py-3 text-base font-semibold capitalize text-white transition hover:bg-white hover:text-black sm:w-auto md:text-xl cursor-pointer">
                             погледни проекти
-                        </button>
+                        </NavLink>
                     </div>
                 </div>
             </div>
