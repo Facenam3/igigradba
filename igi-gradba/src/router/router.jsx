@@ -7,6 +7,7 @@ import AboutUs from "../pages/AboutUs.jsx";
 import Projects from "../pages/Projects.jsx";
 import Contact from "../pages/Contact.jsx";
 import Policy from "../pages/Policy.jsx";
+import ProjectDetails from "../pages/ProjectDetails.jsx";
 
 export const router = createBrowserRouter(
     [
@@ -19,24 +20,28 @@ export const router = createBrowserRouter(
                     element: <HomeLayout />
                 },
                 {
-                    path: "/services",
+                    path: "services",
                     element: <Services />
                 },
                 {
-                    path: "/about-us",
+                    path: "about-us",
                     element: <AboutUs />
                 },
                 {
-                    path: "/projects",
+                    path: "projects",
                     element: <Projects />
                 },
                 {
-                    path: "/contact",
+                    path: "contact",
                     element: <Contact />
                 },
                 {
-                    path: "/privacy-policy",
+                    path: "privacy-policy",
                     element: <Policy />
+                },
+                {
+                    path: "projects/:slug",
+                    element: <ProjectDetails />
                 }
             ]
         }

@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router";
 
 export default function Card({
     title,
@@ -9,6 +10,7 @@ export default function Card({
     projectCard = false,
     category,
     location,
+    slug,
     ...props
 }) {
 
@@ -51,14 +53,21 @@ export default function Card({
                 )}
 
                 {projectCard && beforeImg && afterImg && (
-                    <button
-                        onClick={() => setShowBefore((prev) => !prev)}
-                        className="mt-5 rounded-xl bg-amber-500 px-4 py-2 text-sm font-semibold text-white transition hover:bg-amber-600"
-                    >
-                        {showBefore
-                            ? "Погледни после"
-                            : "Погледни пред"}
-                    </button>
+                    <div className="flex lg:flex-row flex-col gap-5 justify-center items-center">
+                        <button
+                            onClick={() => setShowBefore((prev) => !prev)}
+                            className="mt-5 rounded-xl bg-amber-500 px-4 py-2 text-sm font-semibold text-white transition hover:bg-amber-600"
+                        >
+                            {showBefore
+                                ? "Погледни после"
+                                : "Погледни пред"}
+                        </button>
+                        <Link
+                            to={`/projects/${slug}`}
+                            className="mt-5 rounded-xl bg-amber-500 px-4 py-2 text-sm font-semibold text-white transition hover:bg-amber-600"
+                        >Погледни проект</Link>
+                    </div> 
+                    
                 )}
             </div>
         </div>
