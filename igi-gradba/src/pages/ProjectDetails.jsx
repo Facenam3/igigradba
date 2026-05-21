@@ -83,10 +83,10 @@ export default function ProjectDetails() {
                             {project.workPerformed.map((item, index) => (
                                 <li
                                     key={index}
-                                    className="flex items-start gap-3 rounded-xl bg-gray-50 border border-gray-100 px-5 py-4"
+                                    className="flex items-start gap-3 rounded-xl bg-gradient-to-tl from-zinc-950 to-zinc-600 border border-gray-100 px-5 py-4"
                                 >
                                     <span className="text-amber-600 font-bold">✓</span>
-                                    <span className="text-gray-700 leading-7">{item}</span>
+                                    <span className="text-gray-50 leading-7">{item}</span>
                                 </li>
                             ))}
                         </ul>
