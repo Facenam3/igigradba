@@ -1,7 +1,7 @@
 import MainHeader from "../components/UI/MainHeader.jsx";
 import SemiHeader from "../components/UI/SemiHeader.jsx";
 
-import projectImg from "../assets/projects/project-1/IMG_6581.jpeg";
+import projectImg from "../assets/projects/project-1/after.jpg";
 
 import GridContainer from "../components/UI/GridContainer.jsx";
 

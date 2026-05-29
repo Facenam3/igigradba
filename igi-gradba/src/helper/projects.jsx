@@ -1,5 +1,8 @@
-import project1after from "../assets/projects/project-1/IMG_6581.jpeg";
-import project1before from "../assets/projects/project-1/IMG_6582.jpeg";
+import { project1Images } from "./projectImages/project1Images";
+import { project2Images } from "./projectImages/project2Images";
+import { project3Images } from "./projectImages/project3Images";
+import { project4Images } from "./projectImages/project4Images";
+import { project5Images } from "./projectImages/project5Images";
 
 export const projectCategories = [
     { id: "all", label: "Сите проекти" },
@@ -19,8 +22,8 @@ export const projects = [
         category: "residential",
         categoryLabel: "Станбени објекти",
         featured: true,
-        beforeImg: project1before,
-        afterImg: project1after,
+        beforeImg: project1Images.before,
+        afterImg: project1Images.after,
         shortDescription: "Изведба на темелна плоча за монтажен станбен објект со целосна подготовка на терен, дренажа и армирано-бетонска конструкција.",
         description:
          "Комплетна изведба на темелна плоча за монтажен станбен објект во Горно Соње. Проектот вклучуваше подготовка и порамнување на теренот, геодетско премерување, ископ и армирање на темели, поставување дренажен систем и изведба на армирано-бетонска конструкција за стабилна и долготрајна основа.",
@@ -36,7 +39,7 @@ export const projects = [
             "Поставување дренажни цевки",
             "Изведба на темелна плоча",
         ],
-        images: [project1after],
+        images: project1Images.gallery,
     },
     {
         id: 2,
@@ -45,8 +48,8 @@ export const projects = [
         category: "renovation",
         categoryLabel: "Реновирање",
         featured: true,
-        beforeImg: project1before,
-        afterImg: project1after,
+        beforeImg: project2Images.before,
+        afterImg: project2Images.after,
         shortDescription: "Комплетно реновирање и реконструкција на станбен објект со структурни измени, нов кров, фасада и уредување на надворешен простор.",
         description: "Целосна реконструкција на постоечки станбен објект во Кисела Вода со адаптација на просториите, нова инфраструктура и современи градежни решенија. Проектот опфати конструктивни промени, замена на кров, фасада, нови инсталации и целосно уредување на дворното место.",
         location: "Кисела Вода, Скопје",
@@ -63,7 +66,7 @@ export const projects = [
             "Изведба на фасада",
             "Ограда и влезна капија"
         ],
-        images: [project1after],
+         images: project2Images.gallery,
     },
     {
         id: 3,
@@ -72,8 +75,8 @@ export const projects = [
         category: "residential",
         categoryLabel: "Станбени објекти",
         featured: true,
-        beforeImg: project1before,
-        afterImg: project1after,
+        beforeImg: project3Images.before,
+        afterImg: project3Images.after,
         shortDescription: "Целосно реновирање на веќепостоечки објект, и доградба на спрат и кров.",
         description: "Комплетно реновирање и доградба на постоечки викенд објект во с. Мирковци. Проектот опфати структурно проширување со нов спрат, кровна конструкција, фасада, внатрешно уредување и уредување на надворешниот простор.",
         location: "с.Мирковци, Скопје",
@@ -90,47 +93,69 @@ export const projects = [
             "Гипс картон и внатрешно уредување",
             "Уредување на двор"
         ],
-        images: [
-            project1before,
-            project1after        
-        ],
+         images: project3Images.gallery,
     },
     {
         id: 4,
-        slug: "adaptacija-deloven-prostor",
-        title: "Адаптација на деловен простор",
+        slug: "renoviranje-krov-nerezi",
+        title: "Целосно реновирање на кров",
         category: "renovation",
         categoryLabel: "Реновирање",
-        featured: false,
-        beforeImg: project1before,
-        afterImg: project1after,
-        shortDescription: "Преуредување на деловен простор со фокус на функционалност, професионален изглед и практична употреба.",
-        description: "Проект за адаптација на постоечки простор во современа деловна средина со квалитетни завршни работи.",
-        location: "Куманово",
-        year: "2024",
-        type: "Деловен простор",
-        area: "140 m²",
-        duration: "2 месеци",
-        images: [project1before],
+        featured: true,
+        beforeImg: project4Images.before,
+        afterImg: project4Images.after,
+        shortDescription:
+            "Комплетна реконструкција на кровна конструкција со замена на оштетени елементи и поставување нов покривен систем.",
+
+        description:
+            "Проектот опфати целосно реновирање на постоечки кров на станбен објект со цел подобрување на стабилноста и долготрајноста на конструкцијата. Извршена е демонтажа на стариот кров, замена на оштетените дрвени елементи и изработка на нова кровна конструкција. По завршување на конструктивните работи поставен е нов покрив со квалитетна изведба и внимание на секој детал.",
+        location: "Скопје",
+        year: "2026",
+        type: "Реновирање на кров",
+        area: "180 m²",
+        duration: "1 недела",
+        workPerformed: [
+            "Демонтажа на постоечки кров",
+            "Отстранување на оштетени елементи",
+            "Изработка на нова дрвена конструкција",
+            "Зајакнување на носечките делови",
+            "Поставување на нов покрив",
+            "Завршни градежни работи",
+        ],
+         images: project4Images.gallery,
     },
     {
         id: 5,
-        slug: "dvorno-ureduvanje-ohrid",
-        title: "Уредување на двор",
+        slug: "postavuvanje-bekaton-ilinden",
+        title: "Поставување на бекатон во двор",
         category: "exterior",
         categoryLabel: "Надворешно уредување",
-        featured: true,
-        beforeImg: project1before,
-        afterImg: project1after,
-        shortDescription: "Уредување на двор со патеки, зелени површини, потпорни елементи и практично организиран надворешен простор.",
-        description: "Изведба на надворешен простор со комбинација од функционалност, естетика и квалитетни материјали.",
-        location: "Охрид",
-        year: "2024",
-        type: "Надворешно уредување",
-        area: "250 m²",
-        duration: "5 недели",
-        images: [project1after],
-    },
+        featured: false,       
+        beforeImg: project5Images.before,
+        afterImg: project5Images.after,
+        shortDescription:
+            "Уредување на дворен простор со поставување на бекатон, подготовка на подлога и изведба на функционални пешачки и пристапни површини.",
+
+        description:
+            "Проектот опфати целосно уредување на дворен простор во Илинден со поставување на бекатон на претходно подготвена подлога. Извршено е расчистување и порамнување на теренот, подготовка на подлогата и прецизно поставување на бекатон со цел добивање на функционален, издржлив и визуелно уреден надворешен простор. Посебно внимание беше посветено на нивелацијата и завршната обработка за да се обезбеди долготрајност и квалитет на изведбата.",
+
+        location: "Илинден, Скопје",
+        year: "2025",
+        type: "Поставување на бекатон",
+        area: "200 m²",
+        duration: "2 недели",
+
+        workPerformed: [
+            "Расчистување и подготовка на терен",
+            "Порамнување на подлогата",
+            "Тампонирање на површината",
+            "Поставување на рабници",
+            "Поставување на бекатон",
+            "Нивелирање и завршна обработка",
+            "Уредување на пристапни и пешачки површини"
+        ],
+        images: project5Images.gallery,
+        },
     {
         id: 6,
         slug: "potporen-zid-i-skali",
@@ -138,8 +163,8 @@ export const projects = [
         category: "exterior",
         categoryLabel: "Надворешно уредување",
         featured: false,
-        beforeImg: project1before,
-        afterImg: project1after,
+         beforeImg: project3Images.before,
+        afterImg: project3Images.after,
         shortDescription: "Изградба на потпорен ѕид и скали за стабилен, безбеден и функционален пристап до дворното место.",
         description: "Проект со фокус на стабилност на терен, сигурна изведба и практично користење на надворешниот простор.",
         location: "Тетово",
@@ -147,7 +172,7 @@ export const projects = [
         type: "Потпорен ѕид",
         area: "90 m²",
         duration: "4 недели",
-        images: [project1before],
+        images: project5Images.gallery,
     },
     {
         id: 7,
@@ -156,8 +181,8 @@ export const projects = [
         category: "paving",
         categoryLabel: "Бекатон и поплочување",
         featured: false,
-        beforeImg: project1before,
-        afterImg: project1after,
+         beforeImg: project3Images.before,
+        afterImg: project3Images.after,
         shortDescription: "Поставување бекатон во двор со прецизна подготовка, правилен пад и чиста завршна линија.",
         description: "Изведба на бекатонска површина со квалитетна подлога, стабилност и долгорочна издржливост.",
         location: "Скопје",
@@ -165,7 +190,7 @@ export const projects = [
         type: "Бекатон",
         area: "160 m²",
         duration: "2 недели",
-        images: [project1after],
+         images: project5Images.gallery,
     },
     {
         id: 8,
@@ -174,8 +199,8 @@ export const projects = [
         category: "paving",
         categoryLabel: "Бекатон и поплочување",
         featured: false,
-        beforeImg: project1before,
-        afterImg: project1after,
+        beforeImg: project3Images.before,
+        afterImg: project3Images.after,
         shortDescription: "Изведба на практичен паркинг простор со бекатон, стабилна подлога и правилно одводнување.",
         description: "Проект за поплочување на паркинг површина со издржливи материјали и функционално решение за секојдневна употреба.",
         location: "Велес",
@@ -183,7 +208,7 @@ export const projects = [
         type: "Поплочување",
         area: "220 m²",
         duration: "3 недели",
-        images: [project1before],
+         images: project5Images.gallery,
     },
     {
         id: 9,
@@ -192,8 +217,8 @@ export const projects = [
         category: "pools",
         categoryLabel: "Базени",
         featured: false,
-        beforeImg: project1before,
-        afterImg: project1after,
+         beforeImg: project3Images.before,
+        afterImg: project3Images.after,
         shortDescription: "Изградба на дворен базен со квалитетна конструкција, чиста завршна обработка и функционален простор околу него.",
         description: "Проект за базен со фокус на стабилна изведба, практична околина и естетски вклопен надворешен простор.",
         location: "Скопје",
@@ -201,7 +226,7 @@ export const projects = [
         type: "Базен",
         area: "45 m²",
         duration: "2 месеци",
-        images: [project1after],
+        images: project5Images.gallery
     },
     {
         id: 10,
@@ -210,8 +235,8 @@ export const projects = [
         category: "finishing",
         categoryLabel: "Завршни работи",
         featured: false,
-        beforeImg: project1before,
-        afterImg: project1after,
+         beforeImg: project3Images.before,
+        afterImg: project3Images.after,
         shortDescription: "Изведба на плочки, гипс-картон, молерисување и декоративни детали за комплетен ентериер.",
         description: "Завршна обработка на станбен простор со професионален пристап и внимание на деталите.",
         location: "Битола",
@@ -219,7 +244,7 @@ export const projects = [
         type: "Завршни работи",
         area: "150 m²",
         duration: "5 недели",
-        images: [project1before],
+        images: project5Images.gallery,
     },
    
 ];
