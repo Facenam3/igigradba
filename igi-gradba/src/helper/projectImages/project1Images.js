@@ -8,6 +8,8 @@ import detail4 from "../../assets/projects/project-1/image4.JPG";
 import detail5 from "../../assets/projects/project-1/image5.JPG";
 import detail6 from "../../assets/projects/project-1/image6.JPG";
 import detail7 from "../../assets/projects/project-1/image7.JPG";
+import detail8 from "../../assets/projects/project-1/image8.JPG";
+import detail9 from "../../assets/projects/project-1/image9.JPG";
 
 export const project1Images = {
     cover,
@@ -22,6 +24,8 @@ export const project1Images = {
         detail5,
         detail6,
         detail7,
+        detail8,
+        detail9,
         after
     ],
 };
