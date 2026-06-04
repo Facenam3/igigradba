@@ -19,7 +19,7 @@ export default function ProjectCard({
     return (
         <article className="overflow-hidden rounded-xl border border-amber-600 bg-white shadow-2xl transition duration-300 hover:-translate-y-1 hover:shadow-xl">
             <img
-                className="h-52 w-full object-contain sm:h-60 lg:h-64"
+                className="h-52 w-full object-cover sm:h-60 lg:h-64"
                 src={imageToShow}
                 alt={title}
             />
