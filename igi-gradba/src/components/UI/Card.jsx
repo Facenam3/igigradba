@@ -23,12 +23,16 @@ export default function Card({
         <div
             {...props}
             className="overflow-hidden rounded-xl border border-amber-600 bg-white shadow-2xl transition duration-300 hover:-translate-y-1 hover:shadow-xl"
-        >
-            <img
-                className="h-52 w-full object-cover sm:h-60 lg:h-64"
-                src={projectCard ? projectImage : img}
-                alt={title}
-            />
+        >   
+            <div className="relative">
+                <div className="absolute inset-0 bg-black/10" />
+                <img
+                    className="h-52 w-full object-cover sm:h-60 lg:h-64"
+                    src={projectCard ? projectImage : img}
+                    alt={title}
+                />
+            </div>
+           
 
             <div className="p-4">
                 {projectCard && category && (
