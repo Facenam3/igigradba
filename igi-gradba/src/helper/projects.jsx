@@ -3,6 +3,7 @@ import { project2Images } from "./projectImages/project2Images";
 import { project3Images } from "./projectImages/project3Images";
 import { project4Images } from "./projectImages/project4Images";
 import { project5Images } from "./projectImages/project5Images";
+import { project6Images } from "./projectImages/project6Images";
 
 export const projectCategories = [
     { id: "all", label: "Сите проекти" },
@@ -163,8 +164,8 @@ export const projects = [
         category: "exterior",
         categoryLabel: "Надворешно уредување",
         featured: false,
-        beforeImg: project3Images.before,
-        afterImg: project3Images.after,
+        beforeImg: project6Images.before,
+        afterImg: project6Images.after,
         shortDescription: "Изградба на летниковец и повеќе придружни објекти во манастирски комплекс со уредување на надворешниот простор и дрвени конструкции.",
         description: "Проектот опфати изградба на голем летниковец во дворот на Манастирот „Св. Петар и Павле“, како и изведба на повеќе придружни градежни и дрводелски работи. Покрај летниковецот, беа изработени кровни конструкции на помошните влезови и камбанаријата, како и дрвена ограда долж пристапната патека. Сите работи беа изведени со внимание на функционалноста, издржливоста и естетското вклопување во манастирскиот амбиент.",
         location: "с.Ајватовци, Скопје",
@@ -172,7 +173,7 @@ export const projects = [
         type: "Летниковец",
         area: "200 m²",
         duration: "6 недели",
-        images: project5Images.gallery,
+        images: project6Images.gallery,
         workPerformed: [
             "Изградба на летниковец",
             "Изработка на дрвена кровна конструкција",

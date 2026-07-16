@@ -27,6 +27,7 @@ export default function ProjectGallery({ images = [], title }) {
         <div className="space-y-4">
             <div className="relative overflow-hidden rounded-3xl shadow-xl">
                 <img
+                    loading="lazy"
                     src={images[currentIndex]}
                     alt={`${title} ${currentIndex + 1}`}
                     className="w-full h-[320px] md:h-[420px] lg:h-[520px] object-cover"
@@ -69,6 +70,7 @@ export default function ProjectGallery({ images = [], title }) {
                             }`}
                         >
                             <img
+                                loading="lazy"
                                 src={image}
                                 alt={`${title} thumbnail ${index + 1}`}
                                 className="h-20 w-full object-cover"
