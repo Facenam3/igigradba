@@ -20,6 +20,5 @@ export const project2Images = {
         detail4,
         detail5,
         detail6,
-        after
     ],
 };

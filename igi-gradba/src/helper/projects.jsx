@@ -11,7 +11,6 @@ export const projectCategories = [
     { id: "renovation", label: "Реновирање" },
     { id: "exterior", label: "Надворешно уредување" },
     { id: "paving", label: "Бекатон" },
-    { id: "pools", label: "Базени" },
     { id: "finishing", label: "Завршни работи" },
 ];
 
@@ -50,7 +49,7 @@ export const projects = [
         categoryLabel: "Реновирање",
         featured: true,
         beforeImg: project2Images.before,
-        afterImg: project2Images.after,
+        afterImg: project2Images.cover,
         shortDescription: "Комплетно реновирање и реконструкција на станбен објект со структурни измени, нов кров, фасада и уредување на надворешен простор.",
         description: "Целосна реконструкција на постоечки станбен објект во Кисела Вода со адаптација на просториите, нова инфраструктура и современи градежни решенија. Проектот опфати конструктивни промени, замена на кров, фасада, нови инсталации и целосно уредување на дворното место.",
         location: "Кисела Вода, Скопје",
