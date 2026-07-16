@@ -1,5 +1,5 @@
 import before from "../../assets/projects/project-2/start.JPG";
-import cover from "../../assets/projects/project-2/after.jpeg";
+import cover from "../../assets/projects/project-2/cover.jfif";
 import after from "../../assets/projects/project-2/after.jpeg";
 import detail1 from "../../assets/projects/project-2/image1.JPG";
 import detail2 from "../../assets/projects/project-2/image2.jpeg";
