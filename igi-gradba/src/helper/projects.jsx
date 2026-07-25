@@ -103,7 +103,7 @@ export const projects = [
         categoryLabel: "Реновирање",
         featured: true,
         beforeImg: project4Images.before,
-        afterImg: project4Images.after,
+        afterImg: project4Images.cover,
         shortDescription:
             "Комплетна реконструкција на кровна конструкција со замена на оштетени елементи и поставување нов покривен систем.",
 

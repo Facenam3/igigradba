@@ -1,6 +1,8 @@
 import before from "../../assets/projects/project-4/start.JPG";
-import cover from "../../assets/projects/project-4/after.JPG";
+import cover from "../../assets/projects/project-4/cover.jfif";
 import after from "../../assets/projects/project-4/after.JPG";
+import finish from "../../assets/projects/project-4/finish.jfif";
+import finish2 from "../../assets/projects/project-4/finish2.jfif";
 import detail1 from "../../assets/projects/project-4/image1.JPG";
 import detail2 from "../../assets/projects/project-4/image2.JPG";
 import detail3 from "../../assets/projects/project-4/image3.JPG";
@@ -22,6 +24,8 @@ export const project4Images = {
         detail5,
         detail6,
         detail7,
-        after
+        after,
+        finish,
+        finish2,
     ],
 };
