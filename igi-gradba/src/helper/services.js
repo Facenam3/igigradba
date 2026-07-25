@@ -1,7 +1,8 @@
 import { project2Images } from "./projectImages/project2Images";
 import { project3Images } from "./projectImages/project3Images";
 import { project5Images } from "./projectImages/project5Images";
-
+import { project6Images } from "./projectImages/project6Images";
+ 
 export const services = [
     {
         id: 1,
@@ -30,7 +31,7 @@ export const services = [
     {
         id: 5,
         title: "Уредување на Надворешни Простори",
-        img: project5Images.gallery[5],
+        img: project6Images.cover,
         description: "Уредување дворови и околина, изградба на потпорни ѕидови, скали, огради и функционални надворешни простори.",
     },
     {

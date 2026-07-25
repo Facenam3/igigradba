@@ -28,5 +28,7 @@ export const project6Images = {
         detail7,
         detail8,
         detail9,
+        after,
+        cover,
     ],
 };

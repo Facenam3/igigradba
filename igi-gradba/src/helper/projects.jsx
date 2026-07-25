@@ -1,10 +1,11 @@
-import { project1Images } from "./projectImages/project1Images";
-import { project2Images } from "./projectImages/project2Images";
-import { project3Images } from "./projectImages/project3Images";
-import { project4Images } from "./projectImages/project4Images";
-import { project5Images } from "./projectImages/project5Images";
-import { project6Images } from "./projectImages/project6Images";
-
+import { project1Images } from "./projectImages/project1Images.js";
+import { project2Images } from "./projectImages/project2Images.js";
+import { project3Images } from "./projectImages/project3Images.js";
+import { project4Images } from "./projectImages/project4Images.js";
+import { project5Images } from "./projectImages/project5Images.js";
+import { project6Images } from "./projectImages/project6Images.js";
+import { project7Images } from "./projectImages/project7Images.js";
+ 
 export const projectCategories = [
     { id: "all", label: "Сите проекти" },
     { id: "residential", label: "Станбени објекти" },
@@ -189,8 +190,8 @@ export const projects = [
         category: "finishing",
         categoryLabel: "Завршни работи",
         featured: false,
-        beforeImg: project3Images.before,
-        afterImg: project3Images.after,
+        beforeImg: project7Images.before,
+        afterImg: project7Images.cover,
         shortDescription: "Изведба на современа термо фасада со повеќе дебелини на изолација и дополнителни завршни работи во ентериерот.",
         description: "Комплетна изведба на термо фасада на семејна куќа во населба Бардовци со комбинација од повеќе дебелини на стиропорска изолација за оптимална енергетска ефикасност. Проектот вклучуваше подготовка и обработка на фасадните површини, како и внатрешни завршни работи во кујна и купатило. Дополнително беше извршено расчистување и отстранување на целиот отпаден материјал по завршувањето на работите.",
         location: "Бардовци, Скопје",
@@ -198,7 +199,7 @@ export const projects = [
         type: "Завршни работи",
         area: "400 m²",
         duration: "3 месеци",
-         images: project5Images.gallery,
+         images: project7Images.gallery,
          workPerformed: [
             "Подготовка на фасадни површини",
             "Монтажа на термо изолација",
