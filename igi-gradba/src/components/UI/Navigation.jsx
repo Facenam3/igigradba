@@ -29,7 +29,7 @@ export default function Navigation({ isTransparent }) {
                 </NavLink>
                     </li>
                 ))}
-                <ContactUs />
+                <ContactUs isTransparent={isTransparent} />
             </ul>
         </nav>
     );
