@@ -5,6 +5,7 @@ import Logo from "../UI/buttons/Logo.jsx";
 import Navigation from "../UI/Navigation.jsx";
 import MobileNavigation from "../UI/MobileNavigation.jsx";
 import NavigationMenuButton from "../UI/buttons/NavigationMenuButton.jsx";
+import ContactUs from "../UI/buttons/ContactUs.jsx";
 
 export default function MainNavigation() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -30,17 +31,10 @@ export default function MainNavigation() {
     const isTransparent = isHome && !scrolled;
 
     return (
-        <header
+       <header
             className={`
-                p-3
-                fixed
-                top-0
-                left-0
-                z-50
-                w-full
-                shadow-xl
-                transition-all
-                duration-500
+                fixed left-0 top-0 z-50 w-full
+                transition-all duration-500
                 ${
                     isTransparent
                         ? "bg-transparent text-white shadow-none"
@@ -48,26 +42,28 @@ export default function MainNavigation() {
                 }
             `}
         >
-            <div className="container mx-auto px-4">
+            <div className="container mx-auto p-4">
                 <div className="flex items-center justify-between">
-                    <Logo />
+                    <Logo isTransparent={isTransparent} />
 
-                    <div className="flex items-center gap-4">
+                    <div className="hidden lg:flex items-center gap-8">
                         <Navigation isTransparent={isTransparent} />
 
+                       <div className="ml-10">
+                            <ContactUs isTransparent={isTransparent} />
+                        </div>
+                    </div>
+
+                    <div className="lg:hidden">
                         <NavigationMenuButton
                             isOpen={isMenuOpen}
-                            isTransparent={isTransparent}
-                            onClick={() => {
-                                setIsMenuOpen((prev) => !prev);
-                            }}
+                            onClick={() => setIsMenuOpen((prev) => !prev)}
                         />
                     </div>
                 </div>
 
                 <MobileNavigation
                     isOpen={isMenuOpen}
-                    isTransparent={isTransparent}
                     onClose={() => setIsMenuOpen(false)}
                 />
             </div>
