@@ -5,6 +5,7 @@ import { project4Images } from "./projectImages/project4Images.js";
 import { project5Images } from "./projectImages/project5Images.js";
 import { project6Images } from "./projectImages/project6Images.js";
 import { project7Images } from "./projectImages/project7Images.js";
+import { project8Images } from "./projectImages/project8Images.js";
  
 export const projectCategories = [
     { id: "all", label: "Сите проекти" },
@@ -212,28 +213,30 @@ export const projects = [
     },
     {
         id: 8,
-        slug: "renoviranje-krov-voddno",
+        slug: "renoviranje-krov-oresani",
         title: "Реновирање на кров на семејна куќа",
         category: "renovation",
         categoryLabel: "Реновирање на кров",
         featured: false,
-        beforeImg: project3Images.before,
-        afterImg: project3Images.after,
-        shortDescription: "Комплетно реновирање на кровна конструкција со нова заштитна фолија, летви и висококвалитетен покривен систем.",
-        description: "Проектот опфати целосна реконструкција на кровот на семејна куќа во населба Водно. Извршена е демонтажа на постоечкиот покривен материјал и подготовка на конструкцијата за нов систем. Поставена е паропропусна фолија, нови летви и квалитетни кровни ќерамиди, со што е обезбедена подобра заштита, долготрајност и сигурност на објектот.",
-        location: "населба Водно, Скопје",
-        year: "2026",
+        beforeImg: project8Images.before,
+        afterImg: project8Images.after,
+        shortDescription:
+            "Комплетно реновирање на кров со подашчување, поставување парна брана, нови летви и нови кровни ќерамиди.",
+        description:
+            "Проектот опфати целосно реновирање на кровот на семејна куќа во населба Орешани. Извршено е подашчување на кровната конструкција, поставување на парна брана и два реда летви, по што беа поставени нови кровни ќерамиди. Со изведените работи се обезбеди подобра заштита на објектот од атмосферски влијанија, како и поголема сигурност и долготрајност на кровот.",
+        location: "населба Орешани, Скопје",
+        year: "2025",
         type: "Реновирање",
         area: "80 m²",
         duration: "1 недела",
-         images: project5Images.gallery,
-         workPerformed: [
+        images: project8Images.gallery,
+        workPerformed: [
             "Демонтажа на постоечки ќерамиди",
-            "Отстранување на стари летви",
-            "Поставување паропропусна фолија",
-            "Монтажа на нови летви",
-            "Поставување нови ќерамиди",
-            "Монтажа на капаци",
+            "Подашчување на кровната конструкција",
+            "Поставување на парна брана",
+            "Поставување на два реда летви",
+            "Поставување на нови кровни ќерамиди",
+            "Монтажа на кровни капаци",
             "Отстранување на отпаден материјал",
         ],
     },
