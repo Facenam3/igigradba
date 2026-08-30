@@ -7,7 +7,7 @@ export default function MobileNavigation({ isOpen, onClose }) {
     if (!isOpen) return null;
 
     return (
-        <div className="absolute left-0 top-full z-50 w-full bg-white/80 text-black shadow-xl lg:hidden">
+        <div className="absolute left-0 top-full z-50 w-full bg-white text-black shadow-xl lg:hidden">
             <ul className="flex flex-col justify-center items-center gap-4 p-5 capitalize">
                 {categories.map((cat) => (
                     <li key={cat.id}>

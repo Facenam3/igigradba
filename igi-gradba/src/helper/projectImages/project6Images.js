@@ -17,8 +17,6 @@ export const project6Images = {
     after,
     gallery: [
         before,
-        cover,
-        after,
         detail1,
         detail2,
         detail3,

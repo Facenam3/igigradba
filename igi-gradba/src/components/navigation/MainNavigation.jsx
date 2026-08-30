@@ -28,7 +28,7 @@ export default function MainNavigation() {
         };
     }, []);
 
-    const isTransparent = isHome && !scrolled;
+    const isTransparent = isHome && !scrolled && !isMenuOpen;
 
     return (
        <header
