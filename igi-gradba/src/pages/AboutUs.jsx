@@ -9,9 +9,10 @@ export default function AboutUs() {
     return (
         <section className="py-36 px-3">
             <div className="container mx-auto">
-                <SemiHeader description="ЗА НАС" />
-
-                <MainHeader title="Градиме со квалитет, искуство и доверба" />
+                <div className="mb-12 lg:mb-16">
+                    <SemiHeader description="ЗА НАС" />
+                    <MainHeader title="Градиме со квалитет, искуство и доверба" />
+                </div>
 
                 <GridContainer>
                     <div className="bg-gradient-to-br from-zinc-950 to-zinc-600 rounded-3xl px-6 py-8 lg:px-10 lg:py-12 shadow-xl">
