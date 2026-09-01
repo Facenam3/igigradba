@@ -7,7 +7,7 @@ export default function Footer() {
         <footer className="bg-gradient-to-r from-amber-950 to-amber-600 text-white rounded-t-3xl py-12 lg:py-16 px-4 border-t border-zinc-800">
             <div className="container mx-auto">
 
-                <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 text-center lg:text-left">
+                <div className="grid grid-cols-1 lg:grid-cols-4 gap-10 text-center lg:text-left">
 
                     <div className="flex flex-col lg:items-baseline lg:justify-baseline items-center justify-center gap-5">
                         <Logo />
@@ -81,6 +81,20 @@ export default function Footer() {
                             <p className="hover:text-amber-300 cursor-pointer">igigradba@gmail.com</p>
 
                             <p className="hover:text-amber-300 cursor-pointer">Скопје, Македонија</p>
+
+                        </div>
+                    </div>
+
+                    <div className="flex flex-col gap-5">
+                        <h3 className="text-lg font-semibold text-amber-400">
+                            Следете не 
+                        </h3>
+
+                        <div className="flex flex-col gap-3 text-gray-50 ">
+
+                            <p className="hover:text-amber-300 cursor-pointer">                               
+                                <a href="https://www.daibau.mk/izveduvac/rismen_kompani_pdoo_uvoz-izvoz_skopje">Даибау</a>
+                            </p>
 
                         </div>
                     </div>
