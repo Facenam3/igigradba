@@ -7,6 +7,7 @@ import { project6Images } from "./projectImages/project6Images.js";
 import { project7Images } from "./projectImages/project7Images.js";
 import { project8Images } from "./projectImages/project8Images.js";
 import { project9Images } from "./projectImages/project9Images.js";
+import { project10Images } from "./projectImages/project10Images.js";
  
 export const projectCategories = [
     { id: "all", label: "Сите проекти" },
@@ -274,8 +275,8 @@ export const projects = [
         category: "exterior",
         categoryLabel: "Надворешно уредување",
         featured: false,
-        beforeImg: project3Images.before,
-        afterImg: project3Images.after,
+        beforeImg: project10Images.before,
+        afterImg: project10Images.cover,
         shortDescription:
             "Подготовка на терен и изработка на армирано-бетонски потпорен ѕид како дел од уредувањето на надворешно игралиште.",
         description:
@@ -285,7 +286,7 @@ export const projects = [
         type: "Надворешно уредување",
         area: "50 m²",
         duration: "22 дена",
-        images: project5Images.gallery,
+        images: project10Images.gallery,
         workPerformed: [
             "Подготовка на теренот",
             "Ископ за изработка на потпорниот ѕид",
