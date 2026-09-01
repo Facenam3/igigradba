@@ -1,14 +1,10 @@
 import { NavLink } from "react-router-dom";
+import Hero from "../../components/UI/Hero";
 
 export default function Home() {
     return (
         <section className="relative min-h-screen w-full overflow-hidden">
-            <img
-                className="absolute inset-0 h-full w-full object-cover"
-                src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                alt="Construction site"
-            />
-
+            <Hero />
             <div className="absolute inset-0 bg-black/60" />
 
             <div className="relative z-10 flex min-h-screen items-center justify-center px-5 text-center">
