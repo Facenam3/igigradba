@@ -3,7 +3,7 @@ import SemiHeader from "../components/UI/SemiHeader.jsx";
 
 export default function PrivacyPolicy() {
     return (
-        <section className="py-16 lg:py-36 px-3">
+        <section className="py-36 px-3">
             <div className="container mx-auto max-w-4xl">
                 <SemiHeader description="ПРИВАТНОСТ" />
 
