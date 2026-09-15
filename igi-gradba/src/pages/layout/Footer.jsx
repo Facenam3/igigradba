@@ -60,7 +60,10 @@ export default function Footer() {
                                 Контакт
                             </Link>
 
-                            <Link to="/privacy-policy">
+                            <Link 
+                                to="/privacy-policy"
+                                className="hover:text-amber-300 transition-colors duration-300"
+                                >
                                 Политика на приватност
                             </Link>
 
