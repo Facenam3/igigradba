@@ -7,7 +7,7 @@ import { homeServices } from "../../helper/services";
 export default function HomeServices() {
     return (
         <section
-            className="lg:py-20 py-10 px-3"
+            className="py-16 lg:py-20 px-3"
         >
             <MainHeader
                 title="наши услуги"

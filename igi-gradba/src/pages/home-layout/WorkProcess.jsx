@@ -8,7 +8,7 @@ import { workProcess } from "../../helper/workprocess.jsx";
 export default function WorkProcess() {
     return (
         <section
-            className="lg:py-20 py-10 px-3 bg-gradient-to-r from-amber-950 to-amber-600"
+            className="py-16 lg:py-20 px-3 bg-gradient-to-r from-amber-950 to-amber-600"
         >
             <MainHeader
                 title="како работиме"

@@ -3,7 +3,7 @@ import Hero from "../../components/UI/Hero";
 
 export default function Home() {
     return (
-        <section className="relative min-h-screen w-full overflow-hidden">
+        <section className="py-16 lg:py-20 relative min-h-screen w-full overflow-hidden">
             <Hero />
             <div className="absolute inset-0 bg-black/60" />
 

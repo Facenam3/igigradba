@@ -4,7 +4,7 @@ import SemiHeader from "../../components/UI/SemiHeader.jsx";
 export default function ContactUs() {
     return (
         <section
-            className="lg:py-20 py-10 px-3"
+            className="py-16 lg:py-20 px-3"
         >
             <MainHeader 
                 title="имате проект?"

@@ -9,7 +9,7 @@ import { whyChooseUs } from "../../helper/whyChooseus.jsx";
 export default function ChooseUs() {
     return (
         <section
-            className="lg:py-20 py-16 px-3 "
+            className="py-16 lg:py-20 px-3 "
         >
             <MainHeader 
                 title="зошто да не одберете нас"
