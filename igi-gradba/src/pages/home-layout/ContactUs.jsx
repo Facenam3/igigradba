@@ -15,7 +15,7 @@ export default function ContactUs() {
             <div className="flex lg:flex-row flex-col-reverse justify-center items-center gap-4">
                     <a
                         href="tel:+38971949527"
-                        className="flex items-center gap-3 rounded-xl bg-white/10 px-5 py-4 transition hover:bg-white/20"
+                        className="flex items-center gap-3 rounded-xl px-5 py-4 transition "
                     >
                         <i className="fa-solid fa-phone text-amber-400"></i>
                         <span>+389 71 949 527</span>
@@ -23,7 +23,7 @@ export default function ContactUs() {
 
                     <a
                         href="tel:+38978284974"
-                        className="flex items-center gap-3 rounded-xl bg-white/10 px-5 py-4 transition hover:bg-white/20"
+                        className="flex items-center gap-3 rounded-xl px-5 py-4 transition "
                     >
                         <i className="fa-solid fa-phone text-amber-400"></i>
                         <span>+389 78 284 974</span>
@@ -31,7 +31,7 @@ export default function ContactUs() {
 
                     <a
                         href="mailto:igigradba@gmail.com"
-                        className="flex items-center gap-3 rounded-xl bg-white/10 px-5 py-4 transition hover:bg-white/20"
+                        className="flex items-center gap-3 rounded-xl px-5 py-4 transition "
                     >
                         <i className="fa-solid fa-envelope text-amber-400"></i>
                         <span>igigradba@gmail.com</span>
